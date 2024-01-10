@@ -1,0 +1,149 @@
+:root {--Pcolor : rgb(10, 182, 130)
+
+}
+
+.body{
+color: white;
+overflow: hidden;
+
+
+
+}
+
+.Fperfil{
+    border-radius: 50%;
+    border: 3px rgb(75, 72, 72) solid;
+    
+
+         }
+
+div{
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+}
+
+.menu{
+    z-index: 1;
+   position: fixed;
+    text-align: center;
+    border-radius: 5px;
+    background-color:#111418;
+    height: 100%;
+}
+
+.portada{background:url(img/portada.jpg);
+    height: 690px;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    
+    left: 16.5vw;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+   
+    
+    
+}
+
+.welcome{margin-top: 180px;}
+
+.Bcontact{
+    border: 2px solid var(--Pcolor);
+    text-align: center;
+    color: var(--Pcolor);}
+
+.Bcontact:hover{
+background-color:  var(--Pcolor);
+color: white;
+border: 2px solid var(--Pcolor);}
+
+.aboutme{background-color: #212529;
+    height: 415px;
+   text-align: center;
+    
+    
+}
+
+.presentacion{
+   
+    margin-left: 240px;
+   
+    
+}
+
+.LiDatos{
+    margin-top: 15px;
+    margin-left: 130px;
+    
+}
+
+.sobremi{background-color: #212529;
+height: 280px;
+}
+
+ul{list-style: none;
+}
+
+.sobremi hr {width: 19%;
+    position: relative;
+    
+    left: 48vw;
+}
+
+hr{color: var(--Pcolor);
+    border: 2px var(--Pcolor) solid;
+    border-radius: 5px;
+}
+
+
+
+.imgs{background-color: #343a40;
+    position: relative;
+    left: 16.5vw;
+    overflow: hidden;
+}
+
+
+
+
+.imgs div img {width: 280px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 60px 75px 20px ;
+    transition: 0.5;
+    object-fit: cover;
+}
+    
+.imgs div img:hover{
+    transform: scale(1.1);
+}
+    
+.imgs div p {margin-left: 110px;
+margin-bottom:35px ;}
+
+.Fcorreo{
+    background-color:#212529;
+    border-left: 390px #212529 solid;
+}
+
+.Fcorreo input {width: 200px;
+}   
+
+.Fcorreo textarea {margin-left: 210px;}
+
+.Fcorreo  button {margin-left:60px ;}
+
+.redes{margin-top: 270px;
+    display: flex;
+    margin-left: 33px;
+}
+
+.redes div{margin-left: 8px;}
